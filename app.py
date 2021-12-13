@@ -19,5 +19,5 @@ def submit():
     return render_template("index.html", name = name, tahun = tahun, pred_val = pred_val)
 
 
-if __name__== "__main__":
+if __name__ == "__main__":
     app.run()
